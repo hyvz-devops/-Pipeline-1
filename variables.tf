@@ -4,5 +4,7 @@ variable a_cidr {
   description = "(-Please provide IP address)"
 }
 
+# variable "client_secret" {
+# }
 
 

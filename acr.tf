@@ -5,7 +5,7 @@ resource "azurerm_container_registry" "acr" {
   sku                      = "Premium"
   admin_enabled            = false
   storage_account_id       = "e9dd5004-4e25-49f2-a70c-3461944c0d4d"
-  georeplication_locations = ["East US", "West Europe"]
+  # georeplication_locations = ["East US", "West Europe"]
 
   network_rule_set {
     default_action = "Deny"
