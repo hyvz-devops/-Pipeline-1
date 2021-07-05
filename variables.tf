@@ -8,3 +8,8 @@ variable a_cidr {
 # }
 
 
+variable name {
+  type        = string
+  default     = ""
+  description = "description"
+}
